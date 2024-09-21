@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #28292a;
+}
+
+header {
+    /* background-color: blue; */
+    background: url("https://www.google.com/chrome/static/images/shapes-light.png");
+    /* z-index: -1; */
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+}
+
+.head {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 40%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 15%;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.section-one {
+    margin-top: 90px;
+    margin-left: 20px;
+    max-width: 1244px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.section-one .sub-section h2 { 
+    background-color: #004a77;
+    width: 100px;
+    font-size: 0.75rem;
+    line-height: 0.6875rem;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.section-one .sub-section .title {
+    font-weight: 500;
+    margin: 8px 0 16px;
+    font-size: 2rem;
+    line-height: 2.75rem;
+}
+
+.section-one .sub-section P{
+    font-family: "Google Sans Text", arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+.section-one .sub-section  ol {
+    margin: 5px 0px 0px;
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.two {
+    gap: 30px;
+    line-height: 15px;
+}
+
+
+/* part two styling */
+.section-two {
+    display: flex;
+    max-width: 970px;
+    margin-top: 100px;
+}
+.whole{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* box-shadow: 12px 0px 0px 12px; */
+    color: #fff;
+}
